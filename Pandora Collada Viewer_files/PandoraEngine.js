@@ -202,9 +202,6 @@ function init() {
     function f() {
         drawBuffer();
         requestId = window.requestAnimFrame(f, canvas);
-		if (SHOW_STATS) {
-			stats.update();
-		}
     };
     f();
 
